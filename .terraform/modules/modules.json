@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"gke","Source":"./modules/gke","Dir":"modules/gke"},{"Key":"instance","Source":"./modules/instance","Dir":"modules/instance"},{"Key":"registry","Source":"./modules/registry","Dir":"modules/registry"},{"Key":"sa","Source":"./modules/sa","Dir":"modules/sa"},{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"}]}

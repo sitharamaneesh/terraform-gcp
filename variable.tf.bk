@@ -1,0 +1,52 @@
+variable "project_id" {
+  description = "The ID of the Google Cloud project"
+  type        = string
+}
+
+
+variable "region" {
+  description = "The region for the GKE cluster"
+  type        = string
+}
+
+variable "cluster_location" {
+  description = "The location for the GKE cluster"
+  type        = string
+}
+variable "cluster_name" {
+   description = "Name of the cluster"
+   type        = string
+}
+
+variable "account_id" {
+   description = "service account id"
+   type        =  string
+}
+
+variable "jumphost_name" {
+  description = "Instance name"
+  type = string
+}
+
+variable "vpc_cidr" {
+  type = string
+}
+
+variable "vpc" {
+  type = string
+}
+
+variable "subnet" {
+  type = string
+}
+
+variable "firewall_name" {
+  type = string
+}
+variable "network" {
+  type = string
+}
+
+variable "subnetwork" {
+  type = string
+}
